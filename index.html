@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+<title>WebShop</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="total">
+    	<div id="inner">
+        	<section id="first_page" style="width:100%; background-image: url(images/bg-black.png); background-repeat:no-repeat;">
+                <div style="width:320px;height:460px;">
+                    <div>
+                        <img id="logo" src="icons/shopping_logo.png">
+                    </div>
+                    <div style="margin-top:20px;">
+                          <div class="form-group">
+                            <input type="email" id="username" class="form-control" placeholder="Username">
+                          </div>
+                          <div class="form-group">
+                            <input type="password" id="password" class="form-control" placeholder="Password">
+                          </div>
+                    </div>  	
+                    <div style="margin-top:30px;">
+                            <button type="submit" id="login" class="btn-danger form-control">Sign in</button>
+                            <button type="submit" id="create" class="btn form-control">Don't have an account? Sign up!</button>
+                    </div>
+                </div>
+        	</section>
+
+        	<section id="register_page" style="width:100%;height:460px;">
+                <div class="create">
+                    <div style="background:#000; width:320px;">
+                        <div style="background:#D9534F" class="banner">
+                            <label>REGISTER TO WEBSHOP!</label>
+                        </div>
+                        <input type="text" id="user" class="form-control" placeholder="Username"/>
+                        <input type="password" id="psw" class="form-control" placeholder="Password"/>
+                        <input type="email" id="email" class="form-control" placeholder="Email"/>
+                        <input type="text" id="num" class="form-control" placeholder="Membership No."/>
+                        <button type="submit" id="register" class="btn btn-danger form-control" style="margin-top:50px;">REGISTER</button>
+                        <button type="button" id="btn_return" class="btn btn-success form-control" style="margin-top:10px; margin-bottom:50px;">BACK</button>    	
+                    </div>
+                </div>
+        	</section>
+       
+        	<section id="items_page" style="width:100%;height:460px; background-color:#FFF;">
+                <div style="width:320px;">
+                    <div class="topper">
+                        <img id="top" src="images/top.png"/>
+                        <label style="color:#FFF; margin-left:25px; margin-top:20px;">Welcome to WebShop</label>
+                        <button id="btn_cart" type="button" class="btn btn-danger btn-sm" style="float:right; margin-top:14px; margin-right:10px;">
+                            <span class="glyphicon glyphicon-shopping-cart"></span>
+                        </button>
+                    </div>
+                    <button id="search_btn" type="button" class="btn btn-danger btn-sm" style="margin:20px 50px 10px 0px; float:right; border-radius:60%;">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                    <input id="search_input" type="search" class="form-control" style="margin:20px 0px 10px 25px;; border-radius:20px; width:200px"/>
+                    <li class="product">
+                    	<span id="product1">
+                        	<img src="images/1.png"/>
+                        	<label>#43902012... ---- $998</label>
+                        </span>
+                        <button id="add" class="btn btn-danger btn-sm" style="width:30px; margin-left:10px;">
+                        	<span class="glyphicon glyphicon-plus-sign"></span>
+                        </button>
+                    </li>
+                    
+                    <li class="product" style="margin-top:10px">
+                        <img src="images/2.png"/>
+                        <label>#12454332... ---- $299</label>
+                    </li>  
+                    <li class="product" style="margin-top:10px">
+                        <img src="images/3.png"/>
+                        <label>#43321121... ---- $199</label>
+                    </li>                  
+                    <li class="product" style="margin-top:10px; margin-bottom:10px;">
+                        <img src="images/4.png"/>
+                        <label>#119909232... ---- $399</label>
+                    </li>   
+                    <div id="footer">
+                        <div class="footer_logo">
+                        <a href="https://www.facebook.com/"><img src="images/fb_share_icon_s.png"/></a>
+                        <a href="https://www.twitter.com/"><img src="images/twitter_share_icon_s.png"></a>
+                        <a href="https://www.plurk.com/"><img src="images/plurk_share_icon_s.png"></a>
+                        </div>
+                    </div>        
+                </div>
+        	</section>
+            
+            <section id="cart" style="width:100%;height:460px; background-color:#FFF">
+            	<div style="width:320px;">
+                    <div style="background:#000; height:60px;">
+                        <label class="detail">Shopping Cart</label>
+                        <button id="btn_back1" type="button" class="btn btn-danger" style="margin-left:150px;">
+                        	<span class="glyphicon glyphicon-arrow-left"></span>
+                        </button>
+                    </div>
+                     <li class="cart_product" id="product1">
+                        <img src="images/1.png"/>
+                        <label>#43902012... ---- $998</label>
+                        <button type="button" class="btn btn-danger btn-sm" style="margin-left: 20px; width:30px;"><span class="glyphicon glyphicon-minus-sign"></span></button>
+                    </li>
+              		<button class="btn btn-danger" style="margin-left:80px; margin-top:40px;">Pay</button>
+                    <button class="btn btn-danger" style="margin-left:50px; margin-top:40px;">Back</button>      
+              </div>
+            </section>
+        
+        	<section id="details_page" style="width:100%;height:460px; background-color:#FFF">
+                <div style="width:320px;">
+                    <div style="background:#000; height:60px;">
+                        <label class="detail">Item Details</label>
+                        <button id="btn_back2" type="button" class="btn btn-danger" style="margin-left:150px;"><span class="glyphicon glyphicon-arrow-left"></span></button>
+                    </div>
+                    <div class="item_detail">
+                        <img src="images/1.png"/>
+                        <span>Name: Item 1</span>
+                        <br/>
+                        <span>Price: $998</span>
+                        <br/>
+                        <span>ID: #43902012</span>
+                        <br/>
+                        <span>Location: Block D...</span>
+                    </div>
+                    <hr/>
+                    <div id="message_box"></div>
+                    <div class="send">
+                        <label>Message:</label>
+                        <input type="text" id="message_input"/>
+                    </div>
+                    <button id="btn_snd" class="btn-danger form-control">Send</button> 
+                </div>
+          	</section>
+       	</div>
+    </div>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,203 @@
+.total
+{
+	width:320px;
+	height:460px;
+	overflow:hidden;
+	margin:0 auto;
+}
+#inner
+{
+	height: 2250px;
+	-webkit-transition:all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0.1s;
+  	-moz-transition:all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0.1s;
+  	-o-transition:all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0.1s;
+  	transition:all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0.1s;
+}
+.inner section
+{
+	 padding:0;
+	 margin:0;
+	 float:left;
+}
+#logo
+{
+	height: 130px; 
+	width: 130px; 
+	margin-left: 100px;
+	margin-top: 35px;
+}
+
+img
+{
+	height: 60px; 
+	width: 60px;
+	margin-left:10px;	
+}
+
+#username
+{
+	border-radius:20px;
+	width:80%;
+	margin-left:30px;
+}
+#password
+{
+	border-radius:20px;
+	width:80%;
+	margin-left:30px;
+}
+.form-group label
+{
+	color:#FFF;
+	margin-right:10px;
+	margin-top:10px;
+}
+#login
+{
+	border-radius:20px; 
+	margin-top:60px;
+	margin-left:30px;
+	width:80%;
+}
+#create
+{
+	border-radius:20px; 
+	margin-top:20px; 
+	margin-left:30px;
+	background:#339EF4; 
+	color:#FFF;
+	width:80%;
+}
+.create input
+{
+	margin-top:30px;
+	margin-left:20px;
+	width:280px;
+	border-radius:20px;
+}
+.create button
+{
+	width:250px; 
+	border-radius:20px; 
+	margin-left:35px;
+}
+.banner label
+{
+	color:#FFF;
+	margin-top:6px;
+	margin-left:75px;
+		
+}
+#top
+{
+	border-radius:50px; 
+	border: 1px solid #FFF; 
+	width:45px; 
+	height:45px;
+	margin-top:8px;
+}
+
+.topper
+{
+	background-color:#000; 
+	height:60px;
+	width:100%;
+}
+#footer
+{
+	background:#000; 
+	width:100%; 
+	height:40px;
+	margin-bottom:5px;
+}
+.footer_logo
+{
+	float:right;
+	margin-right:10px;
+}
+#footer img
+{
+	width:20px; 
+	height:20px;
+	margin-top:10px;
+}
+#footer a
+{
+	margin-top:10px;
+}
+.item_detail
+{
+	width:100%; 
+	height:80px; 
+	margin-left:10px; 
+	margin-top:30px;
+}
+.product
+{
+	width:290px; 
+	height:65px; 
+	border:1px solid #CCC;
+	margin-left:10px;
+	list-style-type:none;
+}
+.cart_product
+{
+	width:290px; 
+	height:65px; 
+	border:1px solid #CCC;
+	margin-left:10px;
+	margin-top:10px;
+	list-style-type:none;
+}
+.detail
+{
+	color:#FFF; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:16px; 
+	margin-left:10px; 
+	margin-top:20px;
+}
+
+.item_detail img
+{
+	float:left; 
+	height:70px; 
+	width:70px;
+}
+.item_detail span
+{
+	float:left;
+	margin-left:40px;
+}
+#message_box
+{
+	width:250px;
+	min-height:100px;
+	border: 1px solid #CCC;
+	background-color:#FFF;
+	padding:10px;
+	margin-left:30px;
+}
+#message_input
+{
+	margin-left:18px;
+	margin-top:20px;
+	border-radius:20px;
+}
+.send
+{
+	margin-left:20px;
+}
+.send label
+{
+	margin-left:10px;
+}
+
+#btn_snd
+{
+	margin-top:50px;
+}
+
+
+
+
